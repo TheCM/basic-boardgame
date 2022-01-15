@@ -8,6 +8,9 @@ class Deck:
     def __init__(self, cards: List[Card]):
         self.cards = cards
 
+    def __str__(self):
+        return [str(card) for card in self.cards]
+
     def shuffle(self):
         shuffle(self.cards)
 
