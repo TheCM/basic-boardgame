@@ -1,7 +1,7 @@
 from random import shuffle
 from typing import List
 
-from basic_boardgame.objects.card import Card
+from basic_boardgame.objects.components.card import Card
 
 
 class Deck:
